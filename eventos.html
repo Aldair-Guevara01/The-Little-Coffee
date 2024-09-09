@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>The Little Coffe</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="customer-support">
+						<i class="fa-solid fa-headset"></i>
+						<div class="content-customer-support">
+							<span class="text">Soporte al cliente</span>
+							<span class="number">+503 7606-5007</span>
+						</div>
+					</div>
+
+					<div class="container-logo">
+						<i class="fa-solid fa-mug-hot"></i>
+						<h1 class="logo"><a href="/">Eventos</a></h1>
+					</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						<li><a href="index.html">inicio</a></li>
+						<li><a href="menu.html">Menú</a></li>
+						<li><a href="eventos.html">Eventos</a></li>
+						<li><a href="#">Horarios</a></li>
+						<li><a href="#">¿Quiénes somos?</a></li>
+						<li><a href="#">Chat en vivo</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="main-content">
+			<section class="container container-features">
+
+			</section>
+
+			<section class="container top-categories">
+				<div class="welcome-message">
+					<h1 class="heading-1">Nuestros Eventos</h1>
+				</div>
+			</section>
+			
+			</section>
+
+            <section class="container top-categories">
+				<h1 class="heading-1">Promociones Semanales</h1>
+				<div class="container-categories">
+
+					<div class="card-category category-desayuno">
+                        <p>¡Desayuno Energético!</p>
+                        <span  onclick="toggleMoreInfo('desayuno-more-info')">Leer más...</span>
+                        <span class="more-info" id="desayuno-more-info">
+                            <button class="btn-close" onclick="toggleMoreInfo('desayuno-more-info')">&times;</button>
+                            Descripción: Por solo $5.99, comienza tu día con un café inglés y un delicioso croissant relleno de jamón y queso. Perfecto para esas mañanas en las que necesitas energía extra.
+                        </span>
+                    </div>
+                    
+					<div class="card-category category-dulce">
+						<p>¡Tarde de postres! </p>
+						<span  onclick="toggleMoreInfo('dulce-more-info')">Leer más...</span>
+                        <span class="more-info" id="dulce-more-info">
+                            <button class="btn-close" onclick="toggleMoreInfo('dulce-more-info')">&times;</button>
+							Descripción: Todos los miércoles, desde las 3 pm hasta las 6 pm, combina un café mocha grande con cualquiera de nuestros pasteles dulces (brownie, cheesecake, o muffin) por solo $6.50. ¡La excusa perfecta para una merienda irresistible!
+                        </span>
+					</div>
+					
+					<div class="card-category category-capuchinopromo">
+						<p>¡Capuchinos al 2x1!</p>
+						<span  onclick="toggleMoreInfo('capuchinopromo-more-info')">Leer más...</span>
+                        <span class="more-info" id="capuchinopromo-more-info">
+                            <button class="btn-close" onclick="toggleMoreInfo('capuchinopromo-more-info')">&times;</button>
+							Descripción: ¡Disfruta el doble! Durante todo el dia viernes, compra un capuchino y llévate otro completamente gratis. Ideal para compartir con un amigo o simplemente para darte un gusto extra.
+
+                        </span>
+					</div>
+				</div>
+			</section>
+
+            <section class="container top-categories">
+				<div class="container-categories">
+					<div class="card-category category-muffin">
+						<p>¡Café Helado + Muffin al 50%!</p>
+						<span  onclick="toggleMoreInfo('muffin-more-info')">Leer más...</span>
+                        <span class="more-info" id="muffin-more-info">
+                            <button class="btn-close" onclick="toggleMoreInfo('muffin-more-info')">&times;</button>
+							Descripción: Refresca tu tarde con un café helado y lleva un muffin de tu elección con un 50% de descuento. Oferta válida todos los sábados y domingos.
+                        </span>
+					</div>
+
+					<div class="card-category category-cafe">
+						<p>¡Feliz hora de café!</p>
+						<span  onclick="toggleMoreInfo('cafe-more-info')">Leer más...</span>
+                        <span class="more-info" id="cafe-more-info">
+                            <button class="btn-close" onclick="toggleMoreInfo('cafe-more-info')">&times;</button>
+							Descripción: Los dias lunes de 4 pm a 6 pm, disfruta cualquier bebida de café al 50% de descuento. Ya sea caliente o fría, ¡el café perfecto para terminar la tarde!
+                        </span>
+					</div>
+
+					<div class="card-category category-postres">
+						<p>¡Martes Elduzado!</p>
+						<span  onclick="toggleMoreInfo('postres-more-info')">Leer más...</span>
+                        <span class="more-info" id="postres-more-info">
+                            <button class="btn-close" onclick="toggleMoreInfo('postres-more-info')">&times;</button>
+							Descripción: ¡Haz que tu martes sea más dulce con nuestra oferta especial! Este martes, durante todo el día, disfruta de un 30% de descuento en todos nuestros postres. Desde tartas de frutas frescas hasta brownies de chocolate y cheesecakes irresistibles, hay algo para cada paladar. Ya sea que te apetezca un capricho en la mañana o un postre después de la cena, esta es la ocasión perfecta para consentirte. ¡No dejes pasar esta deliciosa oportunidad!	
+						</span>
+					</div>
+				</div>
+			</section>
+
+            <section class="container blogs">
+                <h1 class="heading-1">Eventos Especiales</h1>
+                <div class="container-blogs">
+                    <div class="card-blog">
+                        <div class="container-img">
+                            <img src="img/inaguracion1.jpg" alt="Imagen Blog 1" />
+                            <div class="button-group-blog">
+                                <span>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-link"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-blog">
+                            <h3>Inaguración de una nueva sucursal - THE LITTLE COFFEE</h3>
+                            <span>4 de septiembre de 2024</span>
+                            <p>
+                                ¡En The Little Coffee estamos emocionados de anunciar la apertura de nuestra nueva sucursal en Avenida Las Palmas, en la Zona Rosa de Santa Lucía, el 4 de septiembre de 2024! Nos especializamos en ofrecer una experiencia única para los amantes del café, con una combinación perfecta entre el arte del buen café y un ambiente acogedor que invita a relajarse. Para celebrar, ese día disfruta de 2x1 en todas nuestras bebidas y participa en una degustación gratuita de nuestros productos más exclusivos. ¡Ven y vive una experiencia cafetera inigualable!
+							</p>
+                            <div class="btn-read-more">Leer más</div>
+                        </div>
+                    </div>
+                    <div class="card-blog">
+                        <div class="container-img">
+                            <img src="img/inaguracion2.jpg" alt="Imagen Blog 2" />
+                            <div class="button-group-blog">
+                                <span>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-link"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-blog">
+                            <h3>¡Estamos de vuelta con una nueva apariencia en THE LITTLE COFFEE!</h3>
+                            <span>Lunes 9 de septiembre</span>
+                            <p>
+								Nos alegra anunciar que, el 8 de septiembre, nuestra sucursal en Calle del Encanto se reinventa con un nuevo estilo. Ven a visitarnos y celebra con nosotros: te ofrecemos 2x1 en todas las bebidas y una degustación gratuita de todas nuestras opciones.
+                            </p>
+                            <div class="btn-read-more">Leer más</div>
+                        </div>
+                    </div>
+                    <div class="card-blog">
+                        <div class="container-img">
+                            <img src="img/inaguracion3.jpg" alt="Imagen Blog 3" />
+                            <div class="button-group-blog">
+                                <span>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-link"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-blog">
+                            <h3>¡Celebra con Nosotros el 5º Aniversario de THE LITTLE COFFEE!</h3>
+                            <span>10 de septiembre 2024</span>
+                            <p>
+								¡Estamos celebrando nuestro 5º aniversario en THE LITTLE COFFEE! El 11 de noviembre, acompáñanos en nuestra sucursal de 123 Maple Street, Barrio El Encanto, Ciudad Bella Vista para festejar estos cinco años de crecimiento y logros gracias a tu apoyo. Disfruta de 50% de descuento en todos los pasteles y galletas, compra un café y llévate otro gratis (de igual o menor valor), y 20% de descuento en nuestra tienda de productos exclusivos. Además, habrá música en vivo, sorteos y obsequios especiales. ¡Ven a celebrar con nosotros y a disfrutar de un día lleno de sorpresas y buen café!
+                            </p>
+                            <div class="btn-read-more">Leer más</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+			<footer class="footer">
+				<div class="container container-footer">
+					<div class="menu-footer">
+						<div class="contact-info">
+							<p class="title-footer">Redes Sociales</p>
+							<ul>
+								<li>Facebook</li>
+								<li>Youtube</li>
+								<li>Pinterest</li>
+								<li>Instagram</li>	
+							</ul>
+							<div class="social-icons">
+								<span class="facebook">
+									<i class="fa-brands fa-facebook-f"></i>
+								</span>
+								
+								<span class="youtube">
+									<i class="fa-brands fa-youtube"></i>
+								</span>
+								<span class="pinterest">
+									<i class="fa-brands fa-pinterest-p"></i>
+								</span>
+								<span class="instagram">
+									<i class="fa-brands fa-instagram"></i>
+								</span>
+							</div>
+						</div>
+	
+						<div class="information">
+							<p class="title-footer">Dirección</p>
+							<ul>
+								<li>
+									Dirección: 123 Maple Street, Barrio El Encanto, Ciudad Bella Vista, CP 45678
+								</li>		
+							</ul>
+						</div>
+	
+						<div class="my-account">
+							<p class="title-footer">Contactános</p>
+	
+							<ul>
+								<li>Teléfono: 7606-5007</li>
+								<li>Fax: 55555300</li>
+								<li>EmaiL: TheLittleCoffe@support.com</li>
+	
+							</ul>
+						</div>
+	
+						<div class="my-account">
+							<p class="title-footer">Información</p>
+	
+							<ul>
+								<li>Información Delivery</li>
+								<li>Términos y Condiciones</li>
+								<li>Contactános</li>
+	
+							</ul>
+						</div>
+						</div>
+					</div>
+	
+					<div class="copyright">
+						<footer>
+							<p>&copy; 2024 The Little Coffee. Todos los derechos reservados.</p>
+						</footer>
+	
+					</div>
+				</div>
+			</footer>
+	
+			<script
+				src="https://kit.fontawesome.com/81581fb069.js"
+				crossorigin="anonymous"
+			></script>
+			<script src="script.js"></script>
+		</body>
+	</html>
+	
+	
