@@ -1193,4 +1193,29 @@ html {
 
 
 
-
+.chat-floating-button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #c7a17a;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	z-index: 1000;
+	transition: background-color 0.3s ease;
+  }
+  
+  .chat-floating-button:hover {
+	background-color: #151515;
+  }
+  
+  .chat-floating-button i {
+	font-size: 24px;
+  }
+  
