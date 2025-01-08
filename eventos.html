@@ -33,14 +33,16 @@
 
 			<div class="container-navbar">
 				<nav class="navbar container">
-					<i class="fa-solid fa-bars"></i>
+					
+					<div class="menu-toggle">&#9776;</div>
 					<ul class="menu">
-						<li><a href="index.html">inicio</a></li>
+						<li><a href="index.html">Inicio</a></li>
 						<li><a href="menu.html">Menú</a></li>
 						<li><a href="eventos.html">Eventos</a></li>
 						<li><a href="#">Horarios</a></li>
-						<li><a href="#">¿Quiénes somos?</a></li>
-						<li><a href="#">Chat en vivo</a></li>
+						<li><a href="trayectoria.html">¿Quiénes somos?</a></li>
+						<div class="close-menu"></div>
+						
 					</ul>
 				</nav>
 			</div>
@@ -52,7 +54,7 @@
 			</section>
 
 			<section class="container top-categories">
-				<div class="welcome-message">
+				<div class="header-message">
 					<h1 class="heading-1">Nuestros Eventos</h1>
 				</div>
 			</section>
@@ -194,16 +196,33 @@
             </section>
         </main>
 
+
+<!-- Chat Flotante -->
+<div class="chat-floating-button" onclick="openChat()">
+	<i class="fa-solid fa-comments"></i> Chat en vivo
+  </div>
+  
+  <script>
+	function openChat() {
+	  window.open('https://1366.3cx.cloud/aldairguevara', '_blank');
+	}
+  </script>
+  
+
+
+
 			<footer class="footer">
 				<div class="container container-footer">
 					<div class="menu-footer">
 						<div class="contact-info">
 							<p class="title-footer">Redes Sociales</p>
 							<ul>
-								<li>Facebook</li>
-								<li>Youtube</li>
-								<li>Pinterest</li>
-								<li>Instagram</li>	
+								<ul>
+									<li><a href="https://www.facebook.com/profile.php?id=61565382162085&is_tour_completed">Facebook</a></li>
+									<li><a href="https://www.youtube.com/@TheLittleCoffe">Youtube</a></li>
+									<li><a href="https://pin.it/ofbl50dCY">Pinterest</a></li>
+									<li><a href="https://www.instagram.com/thelittlecoffe2/?hl=es-es">Instagram</a></li>
+								  </ul>
 							</ul>
 							<div class="social-icons">
 								<span class="facebook">
@@ -246,9 +265,10 @@
 							<p class="title-footer">Información</p>
 	
 							<ul>
-								<li>Información Delivery</li>
-								<li>Términos y Condiciones</li>
-								<li>Contactános</li>
+								    <li>Origen de los granos: En The Little Coffee solo utilizamos granos de café de comercio justo, seleccionados de pequeñas fincas en Colombia y Etiopía.</li>
+									<li>Proceso de tostado: Nuestro café es tostado en pequeños lotes para garantizar la frescura y el sabor en cada taza.</li>
+									<li>Sostenibilidad: Nos comprometemos con el medio ambiente utilizando empaques reciclables y reduciendo el uso de plástico en nuestros productos.</li>
+								
 	
 							</ul>
 						</div>
